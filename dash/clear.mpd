@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" xmlns:cenc="urn:mpeg:cenc:2013" minBufferTime="PT2S" type="static" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" mediaPresentationDuration="PT12M22S">
+<MPD mediaPresentationDuration="PT10M42.566S" minBufferTime="PT2.00S" profiles="urn:hbbtv:dash:profile:isoff-live:2012,urn:mpeg:dash:profile:isoff-live:2011" type="static" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 DASH-MPD.xsd">
   <Period duration="PT8S">
-    <BaseURL>https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd</BaseURL>
+    <BaseURL>//dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd</BaseURL>
     <AdaptationSet mimeType="video/mp4" contentType="video" subsegmentAlignment="true" subsegmentStartsWithSAP="1" par="16:9">
       <SegmentTemplate duration="120" timescale="30" media="$RepresentationID$/$RepresentationID$_$Number$.m4v" startNumber="1" initialization="$RepresentationID$/$RepresentationID$_0.m4v"/>
       <Representation id="bbb_30fps_1024x576_2500k" codecs="avc1.64001f" bandwidth="3134488" width="1024" height="576" frameRate="30" sar="1:1" scanType="progressive"/>
@@ -24,41 +24,27 @@
       </Representation>
     </AdaptationSet>
   </Period>
-  <Period duration="PT734S">
-    <BaseURL>https://storage.googleapis.com/wvmedia/clear/h264/tears/tears.mpd</BaseURL>
-    <AdaptationSet id="0" contentType="audio" lang="en">
-      <Representation id="0" bandwidth="131596" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
-        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
-        <BaseURL>tears_audio_eng.mp4</BaseURL>
-        <SegmentBase indexRange="745-1664" timescale="44100">
-          <Initialization range="0-744"/>
-        </SegmentBase>
-      </Representation>
+  <Period duration="PT634.566S">
+    <BaseURL>//dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd</BaseURL>
+    <AdaptationSet mimeType="video/mp4" contentType="video" subsegmentAlignment="true" subsegmentStartsWithSAP="1" par="16:9">
+      <SegmentTemplate duration="120" timescale="30" media="$RepresentationID$/$RepresentationID$_$Number$.m4v" startNumber="1" initialization="$RepresentationID$/$RepresentationID$_0.m4v"/>
+      <Representation id="bbb_30fps_1024x576_2500k" codecs="avc1.64001f" bandwidth="3134488" width="1024" height="576" frameRate="30" sar="1:1" scanType="progressive"/>
+      <Representation id="bbb_30fps_1280x720_4000k" codecs="avc1.64001f" bandwidth="4952892" width="1280" height="720" frameRate="30" sar="1:1" scanType="progressive"/>
+      <Representation id="bbb_30fps_1920x1080_8000k" codecs="avc1.640028" bandwidth="9914554" width="1920" height="1080" frameRate="30" sar="1:1" scanType="progressive"/>
+      <Representation id="bbb_30fps_320x180_200k" codecs="avc1.64000d" bandwidth="254320" width="320" height="180" frameRate="30" sar="1:1" scanType="progressive"/>
+      <Representation id="bbb_30fps_320x180_400k" codecs="avc1.64000d" bandwidth="507246" width="320" height="180" frameRate="30" sar="1:1" scanType="progressive"/>
+      <Representation id="bbb_30fps_480x270_600k" codecs="avc1.640015" bandwidth="759798" width="480" height="270" frameRate="30" sar="1:1" scanType="progressive"/>
+      <Representation id="bbb_30fps_640x360_1000k" codecs="avc1.64001e" bandwidth="1254758" width="640" height="360" frameRate="30" sar="1:1" scanType="progressive"/>
+      <Representation id="bbb_30fps_640x360_800k" codecs="avc1.64001e" bandwidth="1013310" width="640" height="360" frameRate="30" sar="1:1" scanType="progressive"/>
+      <Representation id="bbb_30fps_768x432_1500k" codecs="avc1.64001e" bandwidth="1883700" width="768" height="432" frameRate="30" sar="1:1" scanType="progressive"/>
+      <Representation id="bbb_30fps_3840x2160_12000k" codecs="avc1.640033" bandwidth="14931538" width="3840" height="2160" frameRate="30" sar="1:1" scanType="progressive"/>
     </AdaptationSet>
-    <AdaptationSet id="1" contentType="video" maxWidth="1920" maxHeight="856" frameRate="12288/512" par="38:17">
-      <Representation id="1" bandwidth="769255" codecs="avc1.42c01e" mimeType="video/mp4" sar="852:857" width="320" height="142">
-        <BaseURL>tears_h264_baseline_240p_800.mp4</BaseURL>
-        <SegmentBase indexRange="827-1602" timescale="12288">
-          <Initialization range="0-826"/>
-        </SegmentBase>
-      </Representation>
-      <Representation id="2" bandwidth="1774254" codecs="avc1.4d401f" mimeType="video/mp4" sar="2242:2249" width="854" height="380">
-        <BaseURL>tears_h264_main_480p_2000.mp4</BaseURL>
-        <SegmentBase indexRange="829-1604" timescale="12288">
-          <Initialization range="0-828"/>
-        </SegmentBase>
-      </Representation>
-      <Representation id="3" bandwidth="7203938" codecs="avc1.4d4028" mimeType="video/mp4" sar="855:857" width="1280" height="570">
-        <BaseURL>tears_h264_main_720p_8000.mp4</BaseURL>
-        <SegmentBase indexRange="830-1605" timescale="12288">
-          <Initialization range="0-829"/>
-        </SegmentBase>
-      </Representation>
-      <Representation id="4" bandwidth="18316946" codecs="avc1.64002a" mimeType="video/mp4" sar="856:857" width="1920" height="856">
-        <BaseURL>tears_h264_high_1080p_20000.mp4</BaseURL>
-        <SegmentBase indexRange="832-1607" timescale="12288">
-          <Initialization range="0-831"/>
-        </SegmentBase>
+    <AdaptationSet mimeType="audio/mp4" contentType="audio" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Accessibility schemeIdUri="urn:tva:metadata:cs:AudioPurposeCS:2007" value="6"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate duration="192512" timescale="48000" media="$RepresentationID$/$RepresentationID$_$Number$.m4a" startNumber="1" initialization="$RepresentationID$/$RepresentationID$_0.m4a"/>
+      <Representation id="bbb_a64k" codecs="mp4a.40.5" bandwidth="67071" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
       </Representation>
     </AdaptationSet>
   </Period>
