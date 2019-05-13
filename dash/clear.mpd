@@ -1,51 +1,30 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" xmlns:cenc="urn:mpeg:cenc:2013" minBufferTime="PT2S" type="static" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" mediaPresentationDuration="PT12M44S">
-  <Period duration="PT30S">
-    <BaseURL>//d3smt9lwr2mvim.cloudfront.net/vodc-dashcisc/fd15d116-81e6-43f6-83c7-f581aaec1053/default_dmt5.mpd</BaseURL>
-    <AdaptationSet bitstreamSwitching="false" codecs="avc1.640032" contentType="video" id="1" mimeType="video/mp4" segmentAlignment="true">
-      <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/$Number$.m4f" startNumber="0" timescale="90000">
-        <SegmentTimeline>
-          <S d="540000" r="4"/>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation bandwidth="400000" frameRate="90000/3600" height="288" id="video_seg_auto_457600_123722_video_481" width="512"/>
-      <Representation bandwidth="749952" frameRate="90000/3600" height="360" id="video_seg_auto_824800_123723_video_481" width="640"/>
-      <Representation bandwidth="1200000" frameRate="90000/3600" height="480" id="video_seg_auto_1297600_123732_video_481" width="854"/>
-      <Representation bandwidth="1600000" frameRate="90000/3600" height="576" id="video_seg_auto_1717600_123724_video_481" width="1024"/>
-      <Representation bandwidth="2499968" frameRate="90000/3600" height="720" id="video_seg_auto_2662400_123729_video_481" width="1280"/>
-      <Representation bandwidth="3499968" frameRate="90000/3600" height="720" id="video_seg_auto_3712400_123735_video_481" width="1280"/>
-      <Representation bandwidth="4499968" frameRate="90000/3600" height="1080" id="video_seg_auto_4762400_123740_video_481" width="1920"/>
-      <Representation bandwidth="5000000" frameRate="90000/3600" height="1084" id="video_seg_auto_5287600_123764_video_481" width="1920"/>
-      <Representation bandwidth="6000000" frameRate="90000/3600" height="1080" id="video_seg_auto_6337600_123744_video_481" width="1920"/>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" xmlns:cenc="urn:mpeg:cenc:2013" minBufferTime="PT2S" type="static" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" mediaPresentationDuration="PT12M22S">
+  <Period duration="PT8S">
+    <BaseURL>//raw.githubusercontent.com/omyani/manifests/master/dash/bbb-short.mpd</BaseURL>
+    <AdaptationSet mimeType="video/mp4" contentType="video" subsegmentAlignment="true" subsegmentStartsWithSAP="1" par="16:9">
+      <SegmentTemplate duration="120" timescale="30" media="$RepresentationID$/$RepresentationID$_$Number$.m4v" startNumber="1" initialization="$RepresentationID$/$RepresentationID$_0.m4v"/>
+      <Representation id="bbb_30fps_1024x576_2500k" codecs="avc1.64001f" bandwidth="3134488" width="1024" height="576" frameRate="30" sar="1:1" scanType="progressive"/>
+      <Representation id="bbb_30fps_1280x720_4000k" codecs="avc1.64001f" bandwidth="4952892" width="1280" height="720" frameRate="30" sar="1:1" scanType="progressive"/>
+      <Representation id="bbb_30fps_1920x1080_8000k" codecs="avc1.640028" bandwidth="9914554" width="1920" height="1080" frameRate="30" sar="1:1" scanType="progressive"/>
+      <Representation id="bbb_30fps_320x180_200k" codecs="avc1.64000d" bandwidth="254320" width="320" height="180" frameRate="30" sar="1:1" scanType="progressive"/>
+      <Representation id="bbb_30fps_320x180_400k" codecs="avc1.64000d" bandwidth="507246" width="320" height="180" frameRate="30" sar="1:1" scanType="progressive"/>
+      <Representation id="bbb_30fps_480x270_600k" codecs="avc1.640015" bandwidth="759798" width="480" height="270" frameRate="30" sar="1:1" scanType="progressive"/>
+      <Representation id="bbb_30fps_640x360_1000k" codecs="avc1.64001e" bandwidth="1254758" width="640" height="360" frameRate="30" sar="1:1" scanType="progressive"/>
+      <Representation id="bbb_30fps_640x360_800k" codecs="avc1.64001e" bandwidth="1013310" width="640" height="360" frameRate="30" sar="1:1" scanType="progressive"/>
+      <Representation id="bbb_30fps_768x432_1500k" codecs="avc1.64001e" bandwidth="1883700" width="768" height="432" frameRate="30" sar="1:1" scanType="progressive"/>
+      <Representation id="bbb_30fps_3840x2160_12000k" codecs="avc1.640033" bandwidth="14931538" width="3840" height="2160" frameRate="30" sar="1:1" scanType="progressive"/>
     </AdaptationSet>
-    <AdaptationSet bitstreamSwitching="false" codecs="mp4a.40.29" contentType="audio" id="2" lang="eng" mimeType="audio/mp4" segmentAlignment="true">
-      <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/$Number$.m4f" startNumber="0" timescale="90000">
-        <SegmentTimeline>
-          <S d="540000" r="4"/>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation audioSamplingRate="48000" bandwidth="64000" id="video_seg_auto_247600_123721_audio_482_mp4a.40.29_104000"/>
-    </AdaptationSet>
-    <AdaptationSet bitstreamSwitching="false" codecs="avc1.640032" contentType="video" id="3" mimeType="video/mp4" segmentAlignment="true">
-      <EssentialProperty schemeIdUri="http://dashif.org/guidelines/trickmode" value="1"/>
-      <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/$Number$.m4f" startNumber="0" timescale="90000">
-        <SegmentTimeline>
-          <S d="180000" r="14"/>
-        </SegmentTimeline>
-      </SegmentTemplate>
-      <Representation bandwidth="400000" frameRate="90000/3600" height="288" id="i-frame457600_123722_video_481" maxPlayoutRate="10" width="512"/>
-      <Representation bandwidth="749952" frameRate="90000/3600" height="360" id="i-frame824800_123723_video_481" maxPlayoutRate="10" width="640"/>
-      <Representation bandwidth="1200000" frameRate="90000/3600" height="480" id="i-frame1297600_123732_video_481" maxPlayoutRate="10" width="854"/>
-      <Representation bandwidth="1600000" frameRate="90000/3600" height="576" id="i-frame1717600_123724_video_481" maxPlayoutRate="10" width="1024"/>
-      <Representation bandwidth="2499968" frameRate="90000/3600" height="720" id="i-frame2662400_123729_video_481" maxPlayoutRate="10" width="1280"/>
-      <Representation bandwidth="3499968" frameRate="90000/3600" height="720" id="i-frame3712400_123735_video_481" maxPlayoutRate="10" width="1280"/>
-      <Representation bandwidth="5000000" frameRate="90000/3600" height="1084" id="i-frame5287600_123764_video_481" maxPlayoutRate="10" width="1920"/>
-      <Representation bandwidth="4499968" frameRate="90000/3600" height="1080" id="i-frame4762400_123740_video_481" maxPlayoutRate="10" width="1920"/>
-      <Representation bandwidth="6000000" frameRate="90000/3600" height="1080" id="i-frame6337600_123744_video_481" maxPlayoutRate="10" width="1920"/>
+    <AdaptationSet mimeType="audio/mp4" contentType="audio" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Accessibility schemeIdUri="urn:tva:metadata:cs:AudioPurposeCS:2007" value="6"/>
+      <Role schemeIdUri="urn:mpeg:dash:role:2011" value="main"/>
+      <SegmentTemplate duration="192512" timescale="48000" media="$RepresentationID$/$RepresentationID$_$Number$.m4a" startNumber="1" initialization="$RepresentationID$/$RepresentationID$_0.m4a"/>
+      <Representation id="bbb_a64k" codecs="mp4a.40.5" bandwidth="67071" audioSamplingRate="48000">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+      </Representation>
     </AdaptationSet>
   </Period>
   <Period duration="PT734S">
-    <BaseURL>//storage.googleapis.com/wvmedia/clear/h264/tears/tears.mpd</BaseURL>
     <AdaptationSet id="0" contentType="audio" lang="en">
       <Representation id="0" bandwidth="131596" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
