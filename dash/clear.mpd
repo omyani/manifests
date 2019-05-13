@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" xmlns:cenc="urn:mpeg:cenc:2013" minBufferTime="PT2S" type="static" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" mediaPresentationDuration="PT12M44S">
+  <Period duration="PT30S">
+    <BaseURL>//d3smt9lwr2mvim.cloudfront.net/vodc-dashcisc/fd15d116-81e6-43f6-83c7-f581aaec1053/default_dmt5.mpd</BaseURL>
+    <AdaptationSet bitstreamSwitching="false" codecs="avc1.640032" contentType="video" id="1" mimeType="video/mp4" segmentAlignment="true">
+      <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/$Number$.m4f" startNumber="0" timescale="90000">
+        <SegmentTimeline>
+          <S d="540000" r="4"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation bandwidth="400000" frameRate="90000/3600" height="288" id="video_seg_auto_457600_123722_video_481" width="512"/>
+      <Representation bandwidth="749952" frameRate="90000/3600" height="360" id="video_seg_auto_824800_123723_video_481" width="640"/>
+      <Representation bandwidth="1200000" frameRate="90000/3600" height="480" id="video_seg_auto_1297600_123732_video_481" width="854"/>
+      <Representation bandwidth="1600000" frameRate="90000/3600" height="576" id="video_seg_auto_1717600_123724_video_481" width="1024"/>
+      <Representation bandwidth="2499968" frameRate="90000/3600" height="720" id="video_seg_auto_2662400_123729_video_481" width="1280"/>
+      <Representation bandwidth="3499968" frameRate="90000/3600" height="720" id="video_seg_auto_3712400_123735_video_481" width="1280"/>
+      <Representation bandwidth="4499968" frameRate="90000/3600" height="1080" id="video_seg_auto_4762400_123740_video_481" width="1920"/>
+      <Representation bandwidth="5000000" frameRate="90000/3600" height="1084" id="video_seg_auto_5287600_123764_video_481" width="1920"/>
+      <Representation bandwidth="6000000" frameRate="90000/3600" height="1080" id="video_seg_auto_6337600_123744_video_481" width="1920"/>
+    </AdaptationSet>
+    <AdaptationSet bitstreamSwitching="false" codecs="mp4a.40.29" contentType="audio" id="2" lang="eng" mimeType="audio/mp4" segmentAlignment="true">
+      <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/$Number$.m4f" startNumber="0" timescale="90000">
+        <SegmentTimeline>
+          <S d="540000" r="4"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation audioSamplingRate="48000" bandwidth="64000" id="video_seg_auto_247600_123721_audio_482_mp4a.40.29_104000"/>
+    </AdaptationSet>
+    <AdaptationSet bitstreamSwitching="false" codecs="avc1.640032" contentType="video" id="3" mimeType="video/mp4" segmentAlignment="true">
+      <EssentialProperty schemeIdUri="http://dashif.org/guidelines/trickmode" value="1"/>
+      <SegmentTemplate initialization="$RepresentationID$/init.mp4" media="$RepresentationID$/$Number$.m4f" startNumber="0" timescale="90000">
+        <SegmentTimeline>
+          <S d="180000" r="14"/>
+        </SegmentTimeline>
+      </SegmentTemplate>
+      <Representation bandwidth="400000" frameRate="90000/3600" height="288" id="i-frame457600_123722_video_481" maxPlayoutRate="10" width="512"/>
+      <Representation bandwidth="749952" frameRate="90000/3600" height="360" id="i-frame824800_123723_video_481" maxPlayoutRate="10" width="640"/>
+      <Representation bandwidth="1200000" frameRate="90000/3600" height="480" id="i-frame1297600_123732_video_481" maxPlayoutRate="10" width="854"/>
+      <Representation bandwidth="1600000" frameRate="90000/3600" height="576" id="i-frame1717600_123724_video_481" maxPlayoutRate="10" width="1024"/>
+      <Representation bandwidth="2499968" frameRate="90000/3600" height="720" id="i-frame2662400_123729_video_481" maxPlayoutRate="10" width="1280"/>
+      <Representation bandwidth="3499968" frameRate="90000/3600" height="720" id="i-frame3712400_123735_video_481" maxPlayoutRate="10" width="1280"/>
+      <Representation bandwidth="5000000" frameRate="90000/3600" height="1084" id="i-frame5287600_123764_video_481" maxPlayoutRate="10" width="1920"/>
+      <Representation bandwidth="4499968" frameRate="90000/3600" height="1080" id="i-frame4762400_123740_video_481" maxPlayoutRate="10" width="1920"/>
+      <Representation bandwidth="6000000" frameRate="90000/3600" height="1080" id="i-frame6337600_123744_video_481" maxPlayoutRate="10" width="1920"/>
+    </AdaptationSet>
+  </Period>
+  <Period duration="PT734S">
+    <BaseURL>//storage.googleapis.com/wvmedia/clear/h264/tears/tears.mpd</BaseURL>
+    <AdaptationSet id="0" contentType="audio" lang="en">
+      <Representation id="0" bandwidth="131596" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>tears_audio_eng.mp4</BaseURL>
+        <SegmentBase indexRange="745-1664" timescale="44100">
+          <Initialization range="0-744"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="video" maxWidth="1920" maxHeight="856" frameRate="12288/512" par="38:17">
+      <Representation id="1" bandwidth="769255" codecs="avc1.42c01e" mimeType="video/mp4" sar="852:857" width="320" height="142">
+        <BaseURL>tears_h264_baseline_240p_800.mp4</BaseURL>
+        <SegmentBase indexRange="827-1602" timescale="12288">
+          <Initialization range="0-826"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="2" bandwidth="1774254" codecs="avc1.4d401f" mimeType="video/mp4" sar="2242:2249" width="854" height="380">
+        <BaseURL>tears_h264_main_480p_2000.mp4</BaseURL>
+        <SegmentBase indexRange="829-1604" timescale="12288">
+          <Initialization range="0-828"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="3" bandwidth="7203938" codecs="avc1.4d4028" mimeType="video/mp4" sar="855:857" width="1280" height="570">
+        <BaseURL>tears_h264_main_720p_8000.mp4</BaseURL>
+        <SegmentBase indexRange="830-1605" timescale="12288">
+          <Initialization range="0-829"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="4" bandwidth="18316946" codecs="avc1.64002a" mimeType="video/mp4" sar="856:857" width="1920" height="856">
+        <BaseURL>tears_h264_high_1080p_20000.mp4</BaseURL>
+        <SegmentBase indexRange="832-1607" timescale="12288">
+          <Initialization range="0-831"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
