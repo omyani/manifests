@@ -3,7 +3,6 @@
   <Period duration="PT15.278S">
     <BaseURL>https://redirector.gvt1.com/api/manifest/dash/requiressl/yes/source/gfp_video_ads/id/08e576cc83db7bd2/itag/0/playlist_type/LIVE/acao/yes/mime/application%2Fdash+xml/ctier/L/ip/0.0.0.0/ipbits/0/expire/1589534853/sparams/ip,ipbits,expire,requiressl,source,id,itag,playlist_type,acao,mime,ctier/signature/15D059672D0B7A11B5FE7B524816A8B47B9A4B03.817DC02B405983823807A127AF340B7FBFED8907/key/ck2</BaseURL>
     <AdaptationSet id="0" mimeType="audio/mp4" subsegmentAlignment="true">
-      <Role schemeIdUri="urn:mpeg:DASH:role:2011" value="main"/>
       <Representation id="139" codecs="mp4a.40.5" audioSamplingRate="22050" startWithSAP="1" bandwidth="48463" yt:mediaLmt="1553766319431143">
         <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
         <BaseURL yt:contentLength="91669">https://redirector.gvt1.com/videoplayback?id=08e576cc83db7bd2&amp;itag=139&amp;source=gfp_video_ads&amp;requiressl=yes&amp;playlist_type=LIVE&amp;acao=yes&amp;ctier=L&amp;ratebypass=yes&amp;mime=audio/mp4&amp;gir=yes&amp;clen=91669&amp;lmt=1553766319431143&amp;dur=15.278&amp;ip=0.0.0.0&amp;ipbits=0&amp;expire=1589534853&amp;sparams=ip,ipbits,expire,id,itag,source,requiressl,playlist_type,acao,ctier,ratebypass,mime,gir,clen,lmt,dur&amp;signature=0DD6166F0A3189EADDFF6014F406AFD44E29CEDA.85A851BBDC6034E907E801CE72ACB66C880C5C16&amp;key=dg_yt0</BaseURL>
