@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MPD xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd" xmlns:cenc="urn:mpeg:cenc:2013" minBufferTime="PT2S" type="static" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" mediaPresentationDuration="PT12M29.278S">
+  <Period duration="PT15.278S">
+    <BaseURL>https://redirector.gvt1.com/api/manifest/dash/requiressl/yes/source/gfp_video_ads/id/08e576cc83db7bd2/itag/0/playlist_type/LIVE/acao/yes/mime/application%2Fdash+xml/ctier/L/ip/0.0.0.0/ipbits/0/expire/1589534853/sparams/ip,ipbits,expire,requiressl,source,id,itag,playlist_type,acao,mime,ctier/signature/15D059672D0B7A11B5FE7B524816A8B47B9A4B03.817DC02B405983823807A127AF340B7FBFED8907/key/ck2</BaseURL>
+    <AdaptationSet id="0" mimeType="audio/mp4" subsegmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:DASH:role:2011" value="main"/>
+      <Representation id="139" codecs="mp4a.40.5" audioSamplingRate="22050" startWithSAP="1" bandwidth="48463" yt:mediaLmt="1553766319431143">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL yt:contentLength="91669">https://redirector.gvt1.com/videoplayback?id=08e576cc83db7bd2&amp;itag=139&amp;source=gfp_video_ads&amp;requiressl=yes&amp;playlist_type=LIVE&amp;acao=yes&amp;ctier=L&amp;ratebypass=yes&amp;mime=audio/mp4&amp;gir=yes&amp;clen=91669&amp;lmt=1553766319431143&amp;dur=15.278&amp;ip=0.0.0.0&amp;ipbits=0&amp;expire=1589534853&amp;sparams=ip,ipbits,expire,id,itag,source,requiressl,playlist_type,acao,ctier,ratebypass,mime,gir,clen,lmt,dur&amp;signature=0DD6166F0A3189EADDFF6014F406AFD44E29CEDA.85A851BBDC6034E907E801CE72ACB66C880C5C16&amp;key=dg_yt0</BaseURL>
+        <SegmentBase indexRange="594-649" indexRangeExact="true">
+          <Initialization range="0-593"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="140" codecs="mp4a.40.2" audioSamplingRate="44100" startWithSAP="1" bandwidth="127880" yt:mediaLmt="1553766319339707">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL yt:contentLength="242762">https://redirector.gvt1.com/videoplayback?id=08e576cc83db7bd2&amp;itag=140&amp;source=gfp_video_ads&amp;requiressl=yes&amp;playlist_type=LIVE&amp;acao=yes&amp;ctier=L&amp;ratebypass=yes&amp;mime=audio/mp4&amp;gir=yes&amp;clen=242762&amp;lmt=1553766319339707&amp;dur=15.232&amp;ip=0.0.0.0&amp;ipbits=0&amp;expire=1589534853&amp;sparams=ip,ipbits,expire,id,itag,source,requiressl,playlist_type,acao,ctier,ratebypass,mime,gir,clen,lmt,dur&amp;signature=3C6FF778A8E747E325BB681681DDE8187E5DE89B.503711382C4494B3755E91804F4921C93CA7641F&amp;key=dg_yt0</BaseURL>
+        <SegmentBase indexRange="592-647" indexRangeExact="true">
+          <Initialization range="0-591"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="141" codecs="mp4a.40.2" audioSamplingRate="44100" startWithSAP="1" bandwidth="255583" yt:mediaLmt="1553766319130627">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL yt:contentLength="486321">https://redirector.gvt1.com/videoplayback?id=08e576cc83db7bd2&amp;itag=141&amp;source=gfp_video_ads&amp;requiressl=yes&amp;playlist_type=LIVE&amp;acao=yes&amp;ctier=L&amp;ratebypass=yes&amp;mime=audio/mp4&amp;gir=yes&amp;clen=486321&amp;lmt=1553766319130627&amp;dur=15.232&amp;ip=0.0.0.0&amp;ipbits=0&amp;expire=1589534853&amp;sparams=ip,ipbits,expire,id,itag,source,requiressl,playlist_type,acao,ctier,ratebypass,mime,gir,clen,lmt,dur&amp;signature=1FA0EC853DB9A64ECF037BFDB8B6B3FC0B86C97C.86E6E8F1FF214B433584E244777C8536E7005AB0&amp;key=dg_yt0</BaseURL>
+        <SegmentBase indexRange="592-647" indexRangeExact="true">
+          <Initialization range="0-591"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" mimeType="video/mp4" subsegmentAlignment="true">
+      <Role schemeIdUri="urn:mpeg:DASH:role:2011" value="main"/>
+      <Representation id="133" codecs="avc1.4d4015" width="426" height="240" startWithSAP="1" maxPlayoutRate="1" bandwidth="245174" frameRate="30" yt:mediaLmt="1553766322636677">
+        <BaseURL yt:contentLength="453530">https://redirector.gvt1.com/videoplayback?id=08e576cc83db7bd2&amp;itag=133&amp;source=gfp_video_ads&amp;requiressl=yes&amp;playlist_type=LIVE&amp;acao=yes&amp;ctier=L&amp;ratebypass=yes&amp;mime=video/mp4&amp;gir=yes&amp;clen=453530&amp;lmt=1553766322636677&amp;dur=15.115&amp;ip=0.0.0.0&amp;ipbits=0&amp;expire=1589534853&amp;sparams=ip,ipbits,expire,id,itag,source,requiressl,playlist_type,acao,ctier,ratebypass,mime,gir,clen,lmt,dur&amp;signature=6499B0357F09DCE87F3CD099D80DED640DFB16CF.44FF5F0CC61D8A5C9CE520F99CA1202A2698EDE2&amp;key=dg_yt0</BaseURL>
+        <SegmentBase indexRange="713-780" indexRangeExact="true">
+          <Initialization range="0-712"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="134" codecs="avc1.4d401e" width="640" height="360" startWithSAP="1" maxPlayoutRate="1" bandwidth="386150" frameRate="30" yt:mediaLmt="1553766323837366">
+        <BaseURL yt:contentLength="644881">https://redirector.gvt1.com/videoplayback?id=08e576cc83db7bd2&amp;itag=134&amp;source=gfp_video_ads&amp;requiressl=yes&amp;playlist_type=LIVE&amp;acao=yes&amp;ctier=L&amp;ratebypass=yes&amp;mime=video/mp4&amp;gir=yes&amp;clen=644881&amp;lmt=1553766323837366&amp;dur=15.115&amp;ip=0.0.0.0&amp;ipbits=0&amp;expire=1589534853&amp;sparams=ip,ipbits,expire,id,itag,source,requiressl,playlist_type,acao,ctier,ratebypass,mime,gir,clen,lmt,dur&amp;signature=66339E14A15C51DD38C795B40CCE25E77DA37B37.837866F596D79AAEFE387E15B86052EE1C8E2D51&amp;key=dg_yt0</BaseURL>
+        <SegmentBase indexRange="713-780" indexRangeExact="true">
+          <Initialization range="0-712"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="135" codecs="avc1.4d401f" width="854" height="480" startWithSAP="1" maxPlayoutRate="1" bandwidth="774733" frameRate="30" yt:mediaLmt="1553766326744305">
+        <BaseURL yt:contentLength="1304599">https://redirector.gvt1.com/videoplayback?id=08e576cc83db7bd2&amp;itag=135&amp;source=gfp_video_ads&amp;requiressl=yes&amp;playlist_type=LIVE&amp;acao=yes&amp;ctier=L&amp;ratebypass=yes&amp;mime=video/mp4&amp;gir=yes&amp;clen=1304599&amp;lmt=1553766326744305&amp;dur=15.115&amp;ip=0.0.0.0&amp;ipbits=0&amp;expire=1589534853&amp;sparams=ip,ipbits,expire,id,itag,source,requiressl,playlist_type,acao,ctier,ratebypass,mime,gir,clen,lmt,dur&amp;signature=508F496686C3648C349F7C2BB213565362449AA5.942F33A3DC6A47989A190E307A935C3194714AA7&amp;key=dg_yt0</BaseURL>
+        <SegmentBase indexRange="713-780" indexRangeExact="true">
+          <Initialization range="0-712"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="160" codecs="avc1.4d400c" width="256" height="144" startWithSAP="1" maxPlayoutRate="1" bandwidth="112094" frameRate="30" yt:mediaLmt="1553766322940199">
+        <BaseURL yt:contentLength="207526">https://redirector.gvt1.com/videoplayback?id=08e576cc83db7bd2&amp;itag=160&amp;source=gfp_video_ads&amp;requiressl=yes&amp;playlist_type=LIVE&amp;acao=yes&amp;ctier=L&amp;ratebypass=yes&amp;mime=video/mp4&amp;gir=yes&amp;clen=207526&amp;lmt=1553766322940199&amp;dur=15.115&amp;ip=0.0.0.0&amp;ipbits=0&amp;expire=1589534853&amp;sparams=ip,ipbits,expire,id,itag,source,requiressl,playlist_type,acao,ctier,ratebypass,mime,gir,clen,lmt,dur&amp;signature=52BE73E91EC2A1A7D19A5DEE45A4307938C1F71F.673DA11D66CCE05ECD783F83531280342B58AB2D&amp;key=dg_yt0</BaseURL>
+        <SegmentBase indexRange="712-779" indexRangeExact="true">
+          <Initialization range="0-711"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="212" codecs="avc1.4d401f" width="854" height="480" startWithSAP="1" maxPlayoutRate="1" bandwidth="1277497" frameRate="30" yt:mediaLmt="1553766324655362">
+        <BaseURL yt:contentLength="2055717">https://redirector.gvt1.com/videoplayback?id=08e576cc83db7bd2&amp;itag=212&amp;source=gfp_video_ads&amp;requiressl=yes&amp;playlist_type=LIVE&amp;acao=yes&amp;ctier=L&amp;ratebypass=yes&amp;mime=video/mp4&amp;gir=yes&amp;clen=2055717&amp;lmt=1553766324655362&amp;dur=15.115&amp;ip=0.0.0.0&amp;ipbits=0&amp;expire=1589534853&amp;sparams=ip,ipbits,expire,id,itag,source,requiressl,playlist_type,acao,ctier,ratebypass,mime,gir,clen,lmt,dur&amp;signature=88AD5CFEF8EB5C1C18FFF7DC96F861E0384B9181.572C22D02B9C0CE931B8DF7B3153CE61804C009D&amp;key=dg_yt0</BaseURL>
+        <SegmentBase indexRange="713-780" indexRangeExact="true">
+          <Initialization range="0-712"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="213" codecs="avc1.4d401f" width="854" height="480" startWithSAP="1" maxPlayoutRate="1" bandwidth="2642954" frameRate="30" yt:mediaLmt="1553766328142594">
+        <BaseURL yt:contentLength="4171324">https://redirector.gvt1.com/videoplayback?id=08e576cc83db7bd2&amp;itag=213&amp;source=gfp_video_ads&amp;requiressl=yes&amp;playlist_type=LIVE&amp;acao=yes&amp;ctier=L&amp;ratebypass=yes&amp;mime=video/mp4&amp;gir=yes&amp;clen=4171324&amp;lmt=1553766328142594&amp;dur=15.115&amp;ip=0.0.0.0&amp;ipbits=0&amp;expire=1589534853&amp;sparams=ip,ipbits,expire,id,itag,source,requiressl,playlist_type,acao,ctier,ratebypass,mime,gir,clen,lmt,dur&amp;signature=711E71599034DE77CFBF40DAF38284C5FB64FC65.45CE7931FBCCAF9264346D09B4D0AD21B102ABC3&amp;key=dg_yt0</BaseURL>
+        <SegmentBase indexRange="713-780" indexRangeExact="true">
+          <Initialization range="0-712"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="136" codecs="avc1.4d401f" width="1280" height="720" startWithSAP="1" maxPlayoutRate="1" bandwidth="1373079" frameRate="30" yt:mediaLmt="1553766329950161">
+        <BaseURL yt:contentLength="2478182">https://redirector.gvt1.com/videoplayback?id=08e576cc83db7bd2&amp;itag=136&amp;source=gfp_video_ads&amp;requiressl=yes&amp;playlist_type=LIVE&amp;acao=yes&amp;ctier=L&amp;ratebypass=yes&amp;mime=video/mp4&amp;gir=yes&amp;clen=2478182&amp;lmt=1553766329950161&amp;dur=15.115&amp;ip=0.0.0.0&amp;ipbits=0&amp;expire=1589534853&amp;sparams=ip,ipbits,expire,id,itag,source,requiressl,playlist_type,acao,ctier,ratebypass,mime,gir,clen,lmt,dur&amp;signature=99E63188E8F6DA07376306F1450018998757CBD8.90389354A485B5DB2860A263C3038A4B8729747D&amp;key=dg_yt0</BaseURL>
+        <SegmentBase indexRange="713-780" indexRangeExact="true">
+          <Initialization range="0-712"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="137" codecs="avc1.640028" width="1920" height="1080" startWithSAP="1" maxPlayoutRate="1" bandwidth="2474331" frameRate="30" yt:mediaLmt="1553766335352626">
+        <BaseURL yt:contentLength="4604590">https://redirector.gvt1.com/videoplayback?id=08e576cc83db7bd2&amp;itag=137&amp;source=gfp_video_ads&amp;requiressl=yes&amp;playlist_type=LIVE&amp;acao=yes&amp;ctier=L&amp;ratebypass=yes&amp;mime=video/mp4&amp;gir=yes&amp;clen=4604590&amp;lmt=1553766335352626&amp;dur=15.115&amp;ip=0.0.0.0&amp;ipbits=0&amp;expire=1589534853&amp;sparams=ip,ipbits,expire,id,itag,source,requiressl,playlist_type,acao,ctier,ratebypass,mime,gir,clen,lmt,dur&amp;signature=3DA16899FE9C8584666EDFEF731CD77E48C0BC8E.4121B645FA6110081AC014638CDE27B16E39DD0D&amp;key=dg_yt0</BaseURL>
+        <SegmentBase indexRange="714-781" indexRangeExact="true">
+          <Initialization range="0-713"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="214" codecs="avc1.4d401f" width="1280" height="720" startWithSAP="1" maxPlayoutRate="1" bandwidth="2265657" frameRate="30" yt:mediaLmt="1553766333451309">
+        <BaseURL yt:contentLength="3874073">https://redirector.gvt1.com/videoplayback?id=08e576cc83db7bd2&amp;itag=214&amp;source=gfp_video_ads&amp;requiressl=yes&amp;playlist_type=LIVE&amp;acao=yes&amp;ctier=L&amp;ratebypass=yes&amp;mime=video/mp4&amp;gir=yes&amp;clen=3874073&amp;lmt=1553766333451309&amp;dur=15.115&amp;ip=0.0.0.0&amp;ipbits=0&amp;expire=1589534853&amp;sparams=ip,ipbits,expire,id,itag,source,requiressl,playlist_type,acao,ctier,ratebypass,mime,gir,clen,lmt,dur&amp;signature=3689406DCD905939177EC25C498D70D873621557.10BB69BC55A88632AA1614649B2A96DEBEA102B6&amp;key=dg_yt0</BaseURL>
+        <SegmentBase indexRange="713-780" indexRangeExact="true">
+          <Initialization range="0-712"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="215" codecs="avc1.4d401f" width="1280" height="720" startWithSAP="1" maxPlayoutRate="1" bandwidth="3557293" frameRate="30" yt:mediaLmt="1553766332245266">
+        <BaseURL yt:contentLength="6153499">https://redirector.gvt1.com/videoplayback?id=08e576cc83db7bd2&amp;itag=215&amp;source=gfp_video_ads&amp;requiressl=yes&amp;playlist_type=LIVE&amp;acao=yes&amp;ctier=L&amp;ratebypass=yes&amp;mime=video/mp4&amp;gir=yes&amp;clen=6153499&amp;lmt=1553766332245266&amp;dur=15.115&amp;ip=0.0.0.0&amp;ipbits=0&amp;expire=1589534853&amp;sparams=ip,ipbits,expire,id,itag,source,requiressl,playlist_type,acao,ctier,ratebypass,mime,gir,clen,lmt,dur&amp;signature=5B50F911F94791E2277F211BBD70F29AA562144F.05909B862C803DFF7F4EE9D10E6FBB9B2F44367C&amp;key=dg_yt0</BaseURL>
+        <SegmentBase indexRange="713-780" indexRangeExact="true">
+          <Initialization range="0-712"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="216" codecs="avc1.640028" width="1920" height="1080" startWithSAP="1" maxPlayoutRate="1" bandwidth="3786861" frameRate="30" yt:mediaLmt="1553766341058142">
+        <BaseURL yt:contentLength="6563846">https://redirector.gvt1.com/videoplayback?id=08e576cc83db7bd2&amp;itag=216&amp;source=gfp_video_ads&amp;requiressl=yes&amp;playlist_type=LIVE&amp;acao=yes&amp;ctier=L&amp;ratebypass=yes&amp;mime=video/mp4&amp;gir=yes&amp;clen=6563846&amp;lmt=1553766341058142&amp;dur=15.115&amp;ip=0.0.0.0&amp;ipbits=0&amp;expire=1589534853&amp;sparams=ip,ipbits,expire,id,itag,source,requiressl,playlist_type,acao,ctier,ratebypass,mime,gir,clen,lmt,dur&amp;signature=4DBEC3BCABC28201E3BB369565546297B47061E4.1858A090C239479F35B3A94B804951A1D15F0443&amp;key=dg_yt0</BaseURL>
+        <SegmentBase indexRange="714-781" indexRangeExact="true">
+          <Initialization range="0-713"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="217" codecs="avc1.640028" width="1920" height="1080" startWithSAP="1" maxPlayoutRate="1" bandwidth="5134122" frameRate="30" yt:mediaLmt="1553766336157971">
+        <BaseURL yt:contentLength="8835186">https://redirector.gvt1.com/videoplayback?id=08e576cc83db7bd2&amp;itag=217&amp;source=gfp_video_ads&amp;requiressl=yes&amp;playlist_type=LIVE&amp;acao=yes&amp;ctier=L&amp;ratebypass=yes&amp;mime=video/mp4&amp;gir=yes&amp;clen=8835186&amp;lmt=1553766336157971&amp;dur=15.115&amp;ip=0.0.0.0&amp;ipbits=0&amp;expire=1589534853&amp;sparams=ip,ipbits,expire,id,itag,source,requiressl,playlist_type,acao,ctier,ratebypass,mime,gir,clen,lmt,dur&amp;signature=630D8087DF67684DAA77A9B44D4B6F18182A3334.5F4F3147B7AA6A76E88AB45307D976A319634064&amp;key=dg_yt0</BaseURL>
+        <SegmentBase indexRange="714-781" indexRangeExact="true">
+          <Initialization range="0-713"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period duration="PT734S">
+    <AdaptationSet id="0" contentType="audio" lang="en">
+      <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="30303030-3030-3030-3030-303030303030"/>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAAR3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACcIARIBMBoNd2lkZXZpbmVfdGVzdCIKMjAxNV90ZWFycyoFQVVESU8=</cenc:pssh>
+      </ContentProtection>
+      <Representation id="0" bandwidth="134359" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>tears_audio_eng.mp4</BaseURL>
+        <SegmentBase indexRange="974-1893" timescale="44100">
+          <Initialization range="0-973"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="video" maxWidth="1920" maxHeight="856" frameRate="12288/512" par="38:17">
+      <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="30303030-3030-3030-3030-303030303035"/>
+      <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+        <cenc:pssh>AAAARHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACQIARIBNRoNd2lkZXZpbmVfdGVzdCIKMjAxNV90ZWFycyoCU0Q=</cenc:pssh>
+      </ContentProtection>
+      <Representation id="1" bandwidth="772315" codecs="avc1.42c01e" mimeType="video/mp4" sar="852:857" width="320" height="142">
+        <BaseURL>tears_h264_baseline_240p_800.mp4</BaseURL>
+        <SegmentBase indexRange="1127-1902" timescale="12288">
+          <Initialization range="0-1126"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="2" bandwidth="1777315" codecs="avc1.4d401f" mimeType="video/mp4" sar="2242:2249" width="854" height="380">
+        <BaseURL>tears_h264_main_480p_2000.mp4</BaseURL>
+        <SegmentBase indexRange="1131-1906" timescale="12288">
+          <Initialization range="0-1130"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="3" bandwidth="7206998" codecs="avc1.4d4028" mimeType="video/mp4" sar="855:857" width="1280" height="570">
+        <BaseURL>tears_h264_main_720p_8000.mp4</BaseURL>
+        <SegmentBase indexRange="1133-1908" timescale="12288">
+          <Initialization range="0-1132"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="4" bandwidth="18320008" codecs="avc1.64002a" mimeType="video/mp4" sar="856:857" width="1920" height="856">
+        <BaseURL>tears_h264_high_1080p_20000.mp4</BaseURL>
+        <SegmentBase indexRange="1137-1912" timescale="12288">
+          <Initialization range="0-1136"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
