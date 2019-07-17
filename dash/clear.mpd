@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <MPD mediaPresentationDuration="PT10M42.566S" minBufferTime="PT2.00S" profiles="urn:hbbtv:dash:profile:isoff-live:2012,urn:mpeg:dash:profile:isoff-live:2011" type="static" xmlns="urn:mpeg:dash:schema:mpd:2011" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 DASH-MPD.xsd">
   <Period duration="PT8S">
+    <EventStream schemeIdUri="urn:scte:scte35:2014:xml+binary">
+      <Event presentationTime="0" duration="1" timescale="1000" id="tracking-0">
+        <scte35:Binary>aHR0cHM6Ly92MGxzYml6Mzc4LmV4ZWN1dGUtYXBpLmV1LXdlc3QtMS5hbWF6b25hd3MuY29tL3Rlc3Q/ZXZlbnQ9c3RhcnQmb3JpZ2luYWxVcmw9aHR0cHMlM0ElMkYlMkZwdWJhZHMuZy5kb3VibGVjbGljay5uZXQlMkZnYW1wYWQlMkZsaXZlJTJGY29udmVyc2lvbiUyRiUzRmFpJTNEQjdBLUdPMjh2WGF6MkJZZU4yZ1Rkb29PUURxU2x5Y0pGQUFBQUVBRWdvZmpiS1RnQVdPdmh1NDZEQkdDX0Jib0JFek16Tm5neU5qa3NOREF3ZURNd01GOTRiV3pJQVFXcEFxM0dLX2R4VDVBLXdBSUM0QUlBNmdJbkx6WXlOek14TWprdlFWSlRRbDlFWlcxdkwwRlNVMEpmUkdWdGIxOUJUMVJIWDFacFpHVnYtQUwzMFI2UUE3QUptQU93Q2FnREFkQUVrRTdnQkFIU0JRWVF6TGJXemhLUUJnR2dCaVBZQndIZ0J4X1NDQWNJZ0dFUUFSZ04lMjZzaWdoJTNEdmVTb3hBODNkeVElMjZsYWJlbCUzRHBhcnQydmlld2VkJTI2YWRfbXQlM0QlNUJBRF9NVCU1RCZhZFN5c3RlbT1HREZQJmFkVGl0bGU9SmFndWFyJTIwRS1QQUNFJTIwUG9wdWxhciUyMENob2ljZSZzaWQ9NDkyODE1OTktMWM5Mi00MDAyLTgxMTktNjY5NWFhZTVlYWQwJnZpZD12aWRlb0lkJnBpZD0=</scte35:Binary>
+      </Event>
+    </EventStream>
     <BaseURL>//dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd</BaseURL>
     <AdaptationSet mimeType="video/mp4" contentType="video" subsegmentAlignment="true" subsegmentStartsWithSAP="1" par="16:9">
       <SegmentTemplate duration="120" timescale="30" media="$RepresentationID$/$RepresentationID$_$Number$.m4v" startNumber="1" initialization="$RepresentationID$/$RepresentationID$_0.m4v"/>
