@@ -1,0 +1,84 @@
+<?xml version="1.0" ?>
+<MPD mediaPresentationDuration="PT754.125S" minBufferTime="PT2.00S" profiles="urn:mpeg:dash:profile:isoff-on-demand:2011" type="static" xmlns="urn:mpeg:dash:schema:mpd:2011">
+  <!-- Created with Bento4 mp4-dash.py, VERSION=1.8.0-628 -->
+  <Period duration="PT20.125S">
+    <BaseURL>https://d2mq0lcaybun3w.cloudfront.net/glasses/dash-vod/stream.mpd</BaseURL>
+    <!-- Video -->
+    <AdaptationSet maxHeight="1080" maxWidth="1920" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Representation bandwidth="1857403" codecs="avc1.64001F" frameRate="24" height="1080" id="video-avc1-1" scanType="progressive" width="1920">
+        <BaseURL>media-video-avc1-1.mp4</BaseURL>
+        <SegmentBase indexRange="730-893">
+          <Initialization range="0-729"/>
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="286400" codecs="avc1.4D401F" frameRate="24" height="360" id="video-avc1-2" scanType="progressive" width="640">
+        <BaseURL>media-video-avc1-2.mp4</BaseURL>
+        <SegmentBase indexRange="726-889">
+          <Initialization range="0-725"/>
+        </SegmentBase>
+      </Representation>
+      <Representation bandwidth="868736" codecs="avc1.64001F" frameRate="24" height="720" id="video-avc1-3" scanType="progressive" width="1280">
+        <BaseURL>media-video-avc1-3.mp4</BaseURL>
+        <SegmentBase indexRange="729-892">
+          <Initialization range="0-728"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <!-- Audio -->
+    <AdaptationSet lang="en" mimeType="audio/mp4" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Representation audioSamplingRate="48000" bandwidth="136523" codecs="mp4a.40.2" id="audio-en-mp4a">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>media-audio-en-mp4a.mp4</BaseURL>
+        <SegmentBase indexRange="667-830">
+          <Initialization range="0-666"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+  <Period duration="PT734S">
+    <BaseURL>https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd</BaseURL>
+    <AdaptationSet id="0" contentType="audio" lang="en">
+        <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="30303030-3030-3030-3030-303030303030"/>
+        <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+          <cenc:pssh>AAAAR3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACcIARIBMBoNd2lkZXZpbmVfdGVzdCIKMjAxNV90ZWFycyoFQVVESU8=</cenc:pssh>
+        </ContentProtection>
+      <Representation id="0" bandwidth="134359" codecs="mp4a.40.2" mimeType="audio/mp4" audioSamplingRate="44100">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <BaseURL>tears_audio_eng.mp4</BaseURL>
+        <SegmentBase indexRange="974-1893" timescale="44100">
+          <Initialization range="0-973"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1" contentType="video" maxWidth="1920" maxHeight="856" frameRate="12288/512" par="38:17">
+        <ContentProtection value="cenc" schemeIdUri="urn:mpeg:dash:mp4protection:2011" cenc:default_KID="30303030-3030-3030-3030-303030303035"/>
+        <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+          <cenc:pssh>AAAARHBzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAACQIARIBNRoNd2lkZXZpbmVfdGVzdCIKMjAxNV90ZWFycyoCU0Q=</cenc:pssh>
+        </ContentProtection>
+      <Representation id="1" bandwidth="772315" codecs="avc1.42c01e" mimeType="video/mp4" sar="852:857" width="320" height="142">
+        <BaseURL>tears_h264_baseline_240p_800.mp4</BaseURL>
+        <SegmentBase indexRange="1127-1902" timescale="12288">
+          <Initialization range="0-1126"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="2" bandwidth="1777315" codecs="avc1.4d401f" mimeType="video/mp4" sar="2242:2249" width="854" height="380">
+        <BaseURL>tears_h264_main_480p_2000.mp4</BaseURL>
+        <SegmentBase indexRange="1131-1906" timescale="12288">
+          <Initialization range="0-1130"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="3" bandwidth="7206998" codecs="avc1.4d4028" mimeType="video/mp4" sar="855:857" width="1280" height="570">
+        <BaseURL>tears_h264_main_720p_8000.mp4</BaseURL>
+        <SegmentBase indexRange="1133-1908" timescale="12288">
+          <Initialization range="0-1132"/>
+        </SegmentBase>
+      </Representation>
+      <Representation id="4" bandwidth="18320008" codecs="avc1.64002a" mimeType="video/mp4" sar="856:857" width="1920" height="856">
+        <BaseURL>tears_h264_high_1080p_20000.mp4</BaseURL>
+        <SegmentBase indexRange="1137-1912" timescale="12288">
+          <Initialization range="0-1136"/>
+        </SegmentBase>
+      </Representation>
+    </AdaptationSet>
+  </Period>
+</MPD>
