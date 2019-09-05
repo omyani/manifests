@@ -8,7 +8,7 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd">
 	<Period id="0" start="PT0.0S" duration="PT30.0S">
-		<BaseURL>https://d38hyez3vlxyw6.cloudfront.net/mcdonalds/dash/out.mpd</BaseURL>
+		<BaseURL>https://d2mq0lcaybun3w.cloudfront.net/mcdonalds/dash/out.mpd</BaseURL>
                 <AdaptationSet id="0" contentType="video" segmentAlignment="true" bitstreamSwitching="true">
 			<Representation id="1" mimeType="video/mp4" codecs="avc1.4d401e" bandwidth="800000" width="854" height="480" frameRate="25/1">
 				<SegmentTemplate timescale="12800" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
@@ -54,7 +54,7 @@
 	<Period
 		duration="PT10M54S"
 		id="1">
-		<BaseURL>https://d38hyez3vlxyw6.cloudfront.net/ed-ttml/manifest.mpd</BaseURL>	
+		<BaseURL>https://d2mq0lcaybun3w.cloudfront.net/ed-ttml/manifest.mpd</BaseURL>	
 		<AdaptationSet
 			bitstreamSwitching="false"
 			contentType="video"
