@@ -1,56 +1,313 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MPD
-	mediaPresentationDuration="PT11M24S"
+	mediaPresentationDuration="PT21M48S"
 	minBufferTime="PT4S"
 	profiles="urn:mpeg:dash:profile:isoff-live:2011"
 	type="static"
 	xmlns="urn:mpeg:dash:schema:mpd:2011"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd">
-	<Period id="0" start="PT0.0S" duration="PT30.0S">
-		<BaseURL>https://d2mq0lcaybun3w.cloudfront.net/mcdonalds/dash/out.mpd</BaseURL>
-                <AdaptationSet id="0" contentType="video" segmentAlignment="true" bitstreamSwitching="true">
-			<Representation id="1" mimeType="video/mp4" codecs="avc1.4d401e" bandwidth="800000" width="854" height="480" frameRate="25/1">
-				<SegmentTemplate timescale="12800" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
-					<SegmentTimeline>
-						<S t="0" d="122880" r="2" />
-						<S d="16384" />
-					</SegmentTimeline>
-				</SegmentTemplate>
-			</Representation>
-			<Representation id="3" mimeType="video/mp4" codecs="avc1.42c00d" bandwidth="300000" width="320" height="170" frameRate="25/1">
-				<SegmentTemplate timescale="12800" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
-					<SegmentTimeline>
-						<S t="0" d="122880" r="2" />
-						<S d="16384" />
-					</SegmentTimeline>
-				</SegmentTemplate>
-			</Representation>
+	xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd">	
+	<Period
+		duration="PT10M54S"
+		id="1">
+		<BaseURL>https://d2mq0lcaybun3w.cloudfront.net/ed-ttml/manifest.mpd</BaseURL>	
+		<AdaptationSet
+			bitstreamSwitching="false"
+			contentType="video"
+			id="1"
+			mimeType="video/mp4"
+			segmentAlignment="true">
+			<SegmentTemplate
+				initialization="$RepresentationID$/init.mp4"
+				media="$RepresentationID$/$Time$.m4f"
+				startNumber="0"
+				timescale="90000">
+				<SegmentTimeline>
+					<S
+						d="360000"
+						r="162"
+						t="0"/>
+					<S
+						d="180000"
+						r="0"
+						t="58680000"/>
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation
+				bandwidth="249984"
+				codecs="avc1.4D401F"
+				frameRate="90000/3750"
+				height="188"
+				id="video_seg_auto_334800_15192_video_480"
+				width="300"/>
+			<Representation
+				bandwidth="499968"
+				codecs="avc1.4D401F"
+				frameRate="90000/3750"
+				height="224"
+				id="video_seg_auto_616000_15193_video_480"
+				width="400"/>
+			<Representation
+				bandwidth="1799936"
+				codecs="avc1.4D401F"
+				frameRate="90000/3750"
+				height="360"
+				id="video_seg_auto_2077200_15191_video_480"
+				width="600"/>
+			<Representation
+				bandwidth="2449920"
+				codecs="avc1.4D401F"
+				frameRate="90000/3750"
+				height="448"
+				id="video_seg_auto_2807600_15194_video_480"
+				width="800"/>
 		</AdaptationSet>
-		<AdaptationSet id="1" contentType="audio" segmentAlignment="true" bitstreamSwitching="true">
-			<Representation id="0" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="128290" audioSamplingRate="44100">
-				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
-				<SegmentTemplate timescale="44100" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
-					<SegmentTimeline>
-						<S t="0" d="421888" />
-						<S d="423936" />
-						<S d="422912" />
-						<S d="56320" />
-					</SegmentTimeline>
-				</SegmentTemplate>
-			</Representation>
-			<Representation id="2" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="64145" audioSamplingRate="22050">
-				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
-				<SegmentTemplate timescale="22050" initialization="init-stream$RepresentationID$.m4s" media="chunk-stream$RepresentationID$-$Number%05d$.m4s" startNumber="1">
-					<SegmentTimeline>
-						<S t="0" d="210944" />
-						<S d="211968" r="1" />
-						<S d="27648" />
-					</SegmentTimeline>
-				</SegmentTemplate>
-			</Representation>
+		<AdaptationSet
+			bitstreamSwitching="false"
+			contentType="audio"
+			id="3"
+			lang="heb"
+			mimeType="audio/mp4"
+			segmentAlignment="true">
+			<SegmentTemplate
+				initialization="$RepresentationID$/init.mp4"
+				media="$RepresentationID$/$Time$.m4f"
+				startNumber="0"
+				timescale="90000">
+				<SegmentTimeline>
+					<S
+						d="360000"
+						r="162"
+						t="0"/>
+					<S
+						d="180000"
+						r="0"
+						t="58680000"/>
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation
+				audioSamplingRate="48000"
+				bandwidth="96000"
+				codecs="mp4a.40.2"
+				id="video_seg_auto_334800_15192_audio_481_mp4a.40.2_99280"/>
 		</AdaptationSet>
-    	</Period>	
+		<AdaptationSet
+			bitstreamSwitching="false"
+			contentType="audio"
+			id="4"
+			lang="eng"
+			mimeType="audio/mp4"
+			segmentAlignment="true">
+			<SegmentTemplate
+				initialization="$RepresentationID$/init.mp4"
+				media="$RepresentationID$/$Time$.m4f"
+				startNumber="0"
+				timescale="90000">
+				<SegmentTimeline>
+					<S
+						d="360000"
+						r="162"
+						t="0"/>
+					<S
+						d="180000"
+						r="0"
+						t="58680000"/>
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation
+				audioSamplingRate="48000"
+				bandwidth="96000"
+				codecs="mp4a.40.2"
+				id="video_seg_auto_334800_15192_audio_482_mp4a.40.2_99280"/>
+		</AdaptationSet>
+		<AdaptationSet
+			bitstreamSwitching="false"
+			contentType="audio"
+			id="5"
+			lang="spa"
+			mimeType="audio/mp4"
+			segmentAlignment="true">
+			<SegmentTemplate
+				initialization="$RepresentationID$/init.mp4"
+				media="$RepresentationID$/$Time$.m4f"
+				startNumber="0"
+				timescale="90000">
+				<SegmentTimeline>
+					<S
+						d="360000"
+						r="162"
+						t="0"/>
+					<S
+						d="180000"
+						r="0"
+						t="58680000"/>
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation
+				audioSamplingRate="48000"
+				bandwidth="96000"
+				codecs="mp4a.40.2"
+				id="video_seg_auto_334800_15192_audio_483_mp4a.40.2_99280"/>
+		</AdaptationSet>
+		<AdaptationSet
+			id="6"
+			lang="eng"
+			mimeType="application/mp4"
+			segmentAlignment="true">
+			<SegmentTemplate
+				initialization="$RepresentationID$/init.mp4"
+				media="$RepresentationID$/$Time$.m4f"
+				startNumber="0"
+				timescale="90000">
+				<SegmentTimeline>
+					<S
+						d="360000"
+						r="162"
+						t="0"/>
+					<S
+						d="180000"
+						r="0"
+						t="58680000"/>
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation
+				bandwidth="200"
+				codecs="stpp"
+				id="CC_480_eng_CEA-608"/>
+		</AdaptationSet>
+		<AdaptationSet
+			id="7"
+			lang="eng"
+			mimeType="application/mp4"
+			segmentAlignment="true">
+			<SegmentTemplate
+				initialization="$RepresentationID$/init.mp4"
+				media="$RepresentationID$/$Time$.m4f"
+				startNumber="0"
+				timescale="90000">
+				<SegmentTimeline>
+					<S
+						d="360000"
+						r="162"
+						t="0"/>
+					<S
+						d="180000"
+						r="0"
+						t="58680000"/>
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation
+				bandwidth="200"
+				codecs="wvtt"
+				id="CC_480_eng_CEA-608_wvtt"/>
+		</AdaptationSet>
+		<AdaptationSet
+			id="8"
+			lang="heb"
+			mimeType="application/mp4"
+			segmentAlignment="true">
+			<SegmentTemplate
+				initialization="$RepresentationID$/init.mp4"
+				media="$RepresentationID$/$Time$.m4f"
+				startNumber="0"
+				timescale="90000">
+				<SegmentTimeline>
+					<S
+						d="360000"
+						r="162"
+						t="0"/>
+					<S
+						d="180000"
+						r="0"
+						t="58680000"/>
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation
+				bandwidth="200"
+				codecs="stpp"
+				id="CC_480_heb_CEA-608"/>
+		</AdaptationSet>
+		<AdaptationSet
+			id="9"
+			lang="heb"
+			mimeType="application/mp4"
+			segmentAlignment="true">
+			<SegmentTemplate
+				initialization="$RepresentationID$/init.mp4"
+				media="$RepresentationID$/$Time$.m4f"
+				startNumber="0"
+				timescale="90000">
+				<SegmentTimeline>
+					<S
+						d="360000"
+						r="162"
+						t="0"/>
+					<S
+						d="180000"
+						r="0"
+						t="58680000"/>
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation
+				bandwidth="200"
+				codecs="wvtt"
+				id="CC_480_heb_CEA-608_wvtt"/>
+		</AdaptationSet>
+		<AdaptationSet
+			bitstreamSwitching="false"
+			contentType="video"
+			id="2"
+			mimeType="video/mp4"
+			segmentAlignment="true">
+			<EssentialProperty
+				schemeIdUri="http://dashif.org/guidelines/trickmode"
+				value="1"/>
+			<SegmentTemplate
+				initialization="$RepresentationID$/init.mp4"
+				media="$RepresentationID$/$Time$.m4f"
+				startNumber="0"
+				timescale="90000">
+				<SegmentTimeline>
+					<S
+						d="180000"
+						r="326"
+						t="0"/>
+				</SegmentTimeline>
+			</SegmentTemplate>
+			<Representation
+				bandwidth="249984"
+				codecs="avc1.4D401F"
+				frameRate="90000/3750"
+				height="188"
+				id="i-frame334800_15192_video_480"
+				maxPlayoutRate="10"
+				width="300"/>
+			<Representation
+				bandwidth="499968"
+				codecs="avc1.4D401F"
+				frameRate="90000/3750"
+				height="224"
+				id="i-frame616000_15193_video_480"
+				maxPlayoutRate="10"
+				width="400"/>
+			<Representation
+				bandwidth="1799936"
+				codecs="avc1.4D401F"
+				frameRate="90000/3750"
+				height="360"
+				id="i-frame2077200_15191_video_480"
+				maxPlayoutRate="10"
+				width="600"/>
+			<Representation
+				bandwidth="2449920"
+				codecs="avc1.4D401F"
+				frameRate="90000/3750"
+				height="448"
+				id="i-frame2807600_15194_video_480"
+				maxPlayoutRate="10"
+				width="800"/>
+		</AdaptationSet>
+	</Period>
 	<Period
 		duration="PT10M54S"
 		id="1">
