@@ -155,7 +155,7 @@
 			lang="eng"
 			mimeType="application/mp4"
 			segmentAlignment="true">
-			<BaseURL>https://d2mq0lcaybun3w.cloudfront.net/etc/empty-subs/stpp/</BaseURL>
+			<BaseURL>https://d35xa79d6nukwl.cloudfront.net/d2mq0lcaybun3w.cloudfront.net/etc/empty-subs/stpp/</BaseURL>
 			<SegmentTemplate
 				initialization="init.mp4"
 				media="segment.m4f"
@@ -182,7 +182,7 @@
 			lang="eng"
 			mimeType="application/mp4"
 			segmentAlignment="true">
-			<BaseURL>https://d2mq0lcaybun3w.cloudfront.net/etc/empty-subs/wvtt/</BaseURL>
+			<BaseURL>https://d35xa79d6nukwl.cloudfront.net/d2mq0lcaybun3w.cloudfront.net/etc/empty-subs/wvtt/</BaseURL>
 			<SegmentTemplate
 				initialization="init.mp4"
 				media="segment.m4f"
@@ -209,7 +209,7 @@
 			lang="heb"
 			mimeType="application/mp4"
 			segmentAlignment="true">
-			<BaseURL>https://d2mq0lcaybun3w.cloudfront.net/etc/empty-subs/stpp/</BaseURL>
+			<BaseURL>https://d35xa79d6nukwl.cloudfront.net/d2mq0lcaybun3w.cloudfront.net/etc/empty-subs/stpp/</BaseURL>
 			 <SegmentTemplate
 				initialization="init.mp4"
 				media="segment.m4f"
@@ -236,7 +236,7 @@
 			lang="heb"
 			mimeType="application/mp4"
 			segmentAlignment="true">
-			<BaseURL>https://d2mq0lcaybun3w.cloudfront.net/etc/empty-subs/wvtt/</BaseURL>
+			<BaseURL>https://d35xa79d6nukwl.cloudfront.net/d2mq0lcaybun3w.cloudfront.net/etc/empty-subs/wvtt/</BaseURL>
 			<SegmentTemplate
 				initialization="init.mp4"
 				media="segment.m4f"
